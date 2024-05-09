@@ -1,0 +1,64 @@
+{
+  "configurationFileVersion": 2,
+  "enhancedContainerIsolation": {
+    "locked": true,
+    "value": true
+  },
+  "kubernetes": {
+     "locked": true,
+     "enabled": false,
+     "showSystemContainers": false,
+     "imagesRepository": ""
+  },
+  "disableUpdate": {
+    "locked": true,
+    "value": false
+  },
+  "analyticsEnabled": {
+    "locked": true,
+    "value": false 
+  },
+  "extensionsEnabled": {
+    "locked": true,
+    "value": false
+  },
+  "scout": {
+    "locked": true,
+    "sbomIndexing": false,
+    "useBackgroundIndexing": true
+  },
+  "allowExperimentalFeatures": {
+    "locked": true,
+    "value": false
+  },
+  "allowBetaFeatures": {
+    "locked": true,
+    "value": false
+  },
+  "blockDockerLoad": {
+    "locked": true,
+    "value": false
+  },
+  "filesharingAllowedDirectories": [
+    {
+      "path": "$HOME",
+      "sharedByDefault": true
+    },
+    {
+      "path":"$TMP",
+      "sharedByDefault": true 
+    }
+  ], 
+  "useVirtualizationFrameworkVirtioFS": {
+    "locked": true,
+    "value": true 
+  },
+  "useVirtualizationFrameworkRosetta": {
+    "locked": true,
+    "value": false
+  },
+  "useGrpcfuse": {
+    "locked": true,
+    "value": true 
+  }
+}
